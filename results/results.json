@@ -1,0 +1,189 @@
+{
+  "per_call": [
+    {
+      "call": "CALL-001",
+      "engine": "deepgram",
+      "wer": 0.085,
+      "entity": {
+        "total": 21,
+        "exact": 19,
+        "fuzzy": 20,
+        "exact_pct": 90.5,
+        "fuzzy_pct": 95.2,
+        "missing": [
+          "entre"
+        ]
+      },
+      "phrase": {
+        "lines": 11,
+        "recalled": 11,
+        "recall_pct": 100.0,
+        "avg_token_recall_pct": 96.3
+      }
+    },
+    {
+      "call": "CALL-001",
+      "engine": "faster-whisper-small",
+      "wer": 0.14,
+      "entity": {
+        "total": 21,
+        "exact": 16,
+        "fuzzy": 19,
+        "exact_pct": 76.2,
+        "fuzzy_pct": 90.5,
+        "missing": [
+          "guarde",
+          "hecho"
+        ]
+      },
+      "phrase": {
+        "lines": 11,
+        "recalled": 10,
+        "recall_pct": 90.9,
+        "avg_token_recall_pct": 91.1
+      }
+    },
+    {
+      "call": "CALL-002",
+      "engine": "deepgram",
+      "wer": 0.056,
+      "entity": {
+        "total": 18,
+        "exact": 16,
+        "fuzzy": 18,
+        "exact_pct": 88.9,
+        "fuzzy_pct": 100.0,
+        "missing": []
+      },
+      "phrase": {
+        "lines": 11,
+        "recalled": 10,
+        "recall_pct": 90.9,
+        "avg_token_recall_pct": 96.0
+      }
+    },
+    {
+      "call": "CALL-002",
+      "engine": "faster-whisper-small",
+      "wer": 0.157,
+      "entity": {
+        "total": 18,
+        "exact": 15,
+        "fuzzy": 16,
+        "exact_pct": 83.3,
+        "fuzzy_pct": 88.9,
+        "missing": [
+          "iban",
+          "soporte"
+        ]
+      },
+      "phrase": {
+        "lines": 11,
+        "recalled": 10,
+        "recall_pct": 90.9,
+        "avg_token_recall_pct": 87.4
+      }
+    },
+    {
+      "call": "CALL-003",
+      "engine": "deepgram",
+      "wer": 0.066,
+      "entity": {
+        "total": 26,
+        "exact": 22,
+        "fuzzy": 25,
+        "exact_pct": 84.6,
+        "fuzzy_pct": 96.2,
+        "missing": [
+          "prepare"
+        ]
+      },
+      "phrase": {
+        "lines": 9,
+        "recalled": 8,
+        "recall_pct": 88.9,
+        "avg_token_recall_pct": 90.6
+      }
+    },
+    {
+      "call": "CALL-003",
+      "engine": "faster-whisper-small",
+      "wer": 0.151,
+      "entity": {
+        "total": 26,
+        "exact": 22,
+        "fuzzy": 25,
+        "exact_pct": 84.6,
+        "fuzzy_pct": 96.2,
+        "missing": [
+          "prepare"
+        ]
+      },
+      "phrase": {
+        "lines": 9,
+        "recalled": 8,
+        "recall_pct": 88.9,
+        "avg_token_recall_pct": 83.4
+      }
+    },
+    {
+      "call": "CALL-004",
+      "engine": "deepgram",
+      "wer": 0.051,
+      "entity": {
+        "total": 21,
+        "exact": 20,
+        "fuzzy": 21,
+        "exact_pct": 95.2,
+        "fuzzy_pct": 100.0,
+        "missing": []
+      },
+      "phrase": {
+        "lines": 10,
+        "recalled": 10,
+        "recall_pct": 100.0,
+        "avg_token_recall_pct": 98.3
+      }
+    },
+    {
+      "call": "CALL-004",
+      "engine": "faster-whisper-small",
+      "wer": 0.102,
+      "entity": {
+        "total": 21,
+        "exact": 18,
+        "fuzzy": 18,
+        "exact_pct": 85.7,
+        "fuzzy_pct": 85.7,
+        "missing": [
+          "gestor",
+          "gestorpro",
+          "soporte"
+        ]
+      },
+      "phrase": {
+        "lines": 10,
+        "recalled": 9,
+        "recall_pct": 90.0,
+        "avg_token_recall_pct": 91.7
+      }
+    }
+  ],
+  "aggregate": {
+    "deepgram": {
+      "wer": 0.065,
+      "entity_exact_pct": 89.8,
+      "entity_fuzzy_pct": 97.8,
+      "phrase_recall_pct": 95.0,
+      "wall_clock_sec": 5.1
+    },
+    "faster-whisper-small": {
+      "wer": 0.138,
+      "entity_exact_pct": 82.5,
+      "entity_fuzzy_pct": 90.3,
+      "phrase_recall_pct": 90.2,
+      "wall_clock_sec": 282.6
+    }
+  },
+  "audio_duration_sec": 242.11
+}

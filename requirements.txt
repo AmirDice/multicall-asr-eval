@@ -1,0 +1,11 @@
+# Synthetic audio generation
+edge-tts>=6.1
+pydub>=0.25          # needs ffmpeg on PATH
+
+# Transcription engines
+deepgram-sdk>=3.7    # cloud; needs DEEPGRAM_API_KEY
+faster-whisper>=1.0  # local CPU (CTranslate2)
+
+# Metrics
+jiwer>=3.0           # WER
+rapidfuzz>=3.0       # fuzzy entity matching

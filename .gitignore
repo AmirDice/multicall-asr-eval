@@ -1,0 +1,14 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Generated audio (run scripts/generate_synthetic.py to recreate)
+*.mp3
+data/_tmp_tts/
+
+# Large raw transcripts (results.json / results.md are the committed snapshot)
+results/transcript_*.json

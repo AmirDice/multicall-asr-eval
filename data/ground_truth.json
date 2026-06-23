@@ -1,0 +1,288 @@
+{
+  "description": "Synthetic multi-call recording — fully fictional, generated with edge-tts.",
+  "voices": {
+    "agent": "es-ES-AlvaroNeural",
+    "client": "es-ES-ElviraNeural"
+  },
+  "duration_sec": 242.11,
+  "calls": [
+    {
+      "id": "CALL-001",
+      "topic": "Descuadre de stock tras una venta anulada",
+      "start": 0.5,
+      "end": 67.66,
+      "turns": [
+        {
+          "start": 0.5,
+          "end": 3.84,
+          "speaker": "agent",
+          "text": "Soporte GestorPro, buenos días."
+        },
+        {
+          "start": 4.19,
+          "end": 11.03,
+          "speaker": "client",
+          "text": "Hola, buenos días. Le llamo de la tienda Pinares. Soy Marta."
+        },
+        {
+          "start": 11.38,
+          "end": 14.88,
+          "speaker": "agent",
+          "text": "Hola Marta, cuénteme, ¿en qué le ayudo?"
+        },
+        {
+          "start": 15.23,
+          "end": 22.31,
+          "speaker": "client",
+          "text": "Tengo un descuadre de stock en un artículo. Aparecen menos unidades de las que tengo en el almacén."
+        },
+        {
+          "start": 22.66,
+          "end": 28.18,
+          "speaker": "agent",
+          "text": "Vale. ¿Recuerda si anuló alguna venta de ese artículo esta semana?"
+        },
+        {
+          "start": 28.53,
+          "end": 33.38,
+          "speaker": "client",
+          "text": "Sí, ayer anulé una venta de tres unidades porque me equivoqué de producto."
+        },
+        {
+          "start": 33.73,
+          "end": 44.94,
+          "speaker": "agent",
+          "text": "Ahí está el problema. Al anular con Control más T, si no confirma el reintegro, el stock no vuelve a sumar. Vamos a corregirlo desde el ajuste de inventario."
+        },
+        {
+          "start": 45.29,
+          "end": 49.08,
+          "speaker": "client",
+          "text": "Perfecto. ¿Me dice los pasos?"
+        },
+        {
+          "start": 49.43,
+          "end": 58.26,
+          "speaker": "agent",
+          "text": "Entre en Almacén, luego en Ajuste de inventario, busque el artículo y ponga las tres unidades que faltan. Guarde con F12."
+        },
+        {
+          "start": 58.61,
+          "end": 63.82,
+          "speaker": "client",
+          "text": "Hecho. Ya me cuadra. Muchas gracias."
+        },
+        {
+          "start": 64.17,
+          "end": 67.31,
+          "speaker": "agent",
+          "text": "A usted. Buen día."
+        }
+      ]
+    },
+    {
+      "id": "CALL-002",
+      "topic": "Error al generar fichero SEPA de remesa",
+      "start": 70.66,
+      "end": 127.53,
+      "turns": [
+        {
+          "start": 70.66,
+          "end": 73.76,
+          "speaker": "agent",
+          "text": "Soporte GestorPro, buenas."
+        },
+        {
+          "start": 74.11,
+          "end": 83.04,
+          "speaker": "client",
+          "text": "Buenas. Soy Javier, de Electrodomésticos del Sur. No consigo generar la remesa SEPA, me da un error."
+        },
+        {
+          "start": 83.39,
+          "end": 86.82,
+          "speaker": "agent",
+          "text": "¿Qué mensaje de error le aparece exactamente?"
+        },
+        {
+          "start": 87.17,
+          "end": 90.53,
+          "speaker": "client",
+          "text": "Dice que el IBAN de un cliente no es válido."
+        },
+        {
+          "start": 90.88,
+          "end": 97.55,
+          "speaker": "agent",
+          "text": "Vale, eso es que un IBAN está mal escrito en una ficha. ¿Cuántos recibos lleva la remesa?"
+        },
+        {
+          "start": 97.9,
+          "end": 99.89,
+          "speaker": "client",
+          "text": "Unos cuarenta."
+        },
+        {
+          "start": 100.24,
+          "end": 107.01,
+          "speaker": "agent",
+          "text": "Vaya a Listados, filtre por IBAN vacío o incorrecto. Le saldrá el cliente que falla."
+        },
+        {
+          "start": 107.36,
+          "end": 111.03,
+          "speaker": "client",
+          "text": "Un momento... sí, hay uno con el IBAN incompleto."
+        },
+        {
+          "start": 111.38,
+          "end": 118.85,
+          "speaker": "agent",
+          "text": "Corríjalo, guarde, y vuelva a generar la remesa. Debería salir el fichero SEPA sin problema."
+        },
+        {
+          "start": 119.2,
+          "end": 124.31,
+          "speaker": "client",
+          "text": "Ya está, ahora sí lo ha generado. Gracias, Javier."
+        },
+        {
+          "start": 124.66,
+          "end": 127.18,
+          "speaker": "agent",
+          "text": "A usted, hasta luego."
+        }
+      ]
+    },
+    {
+      "id": "CALL-003",
+      "topic": "Alta de un proveedor nuevo y asociación de artículos",
+      "start": 130.53,
+      "end": 186.07,
+      "turns": [
+        {
+          "start": 130.53,
+          "end": 133.0,
+          "speaker": "agent",
+          "text": "GestorPro, dígame."
+        },
+        {
+          "start": 133.35,
+          "end": 140.79,
+          "speaker": "client",
+          "text": "Hola, llamo de la ferretería Costa. Quería dar de alta un proveedor nuevo, se llama Suministros Aribau."
+        },
+        {
+          "start": 141.14,
+          "end": 149.52,
+          "speaker": "agent",
+          "text": "Sin problema. Entre en Compras, Proveedores, y pulse Nuevo. Rellene el nombre y el CIF."
+        },
+        {
+          "start": 149.87,
+          "end": 155.31,
+          "speaker": "client",
+          "text": "Vale, ya lo tengo creado. ¿Y cómo le asocio los artículos?"
+        },
+        {
+          "start": 155.66,
+          "end": 162.5,
+          "speaker": "agent",
+          "text": "Desde la ficha del proveedor, pestaña Artículos, puede asociarlos uno a uno o con la importación por lista."
+        },
+        {
+          "start": 162.85,
+          "end": 166.48,
+          "speaker": "client",
+          "text": "Tengo como doscientos artículos de ese proveedor."
+        },
+        {
+          "start": 166.83,
+          "end": 175.95,
+          "speaker": "agent",
+          "text": "Entonces use la importación por lista. Prepare un Excel con el código y el precio de compra, y lo sube desde Utilidades, Importar."
+        },
+        {
+          "start": 176.3,
+          "end": 181.27,
+          "speaker": "client",
+          "text": "Perfecto, eso me ahorra mucho tiempo. Gracias."
+        },
+        {
+          "start": 181.62,
+          "end": 185.72,
+          "speaker": "agent",
+          "text": "De nada. Cualquier cosa, nos llama."
+        }
+      ]
+    },
+    {
+      "id": "CALL-004",
+      "topic": "Código de barras asignado a un artículo equivocado",
+      "start": 189.07,
+      "end": 242.11,
+      "turns": [
+        {
+          "start": 189.07,
+          "end": 193.53,
+          "speaker": "agent",
+          "text": "Soporte GestorPro, buenas tardes, le atiende Lucía."
+        },
+        {
+          "start": 193.88,
+          "end": 201.64,
+          "speaker": "client",
+          "text": "Hola Lucía. Soy Pedro, de la papelería Centro. Tengo un lío con un código de barras."
+        },
+        {
+          "start": 201.99,
+          "end": 204.1,
+          "speaker": "agent",
+          "text": "Cuénteme qué pasa."
+        },
+        {
+          "start": 204.45,
+          "end": 210.95,
+          "speaker": "client",
+          "text": "Cuando escaneo un bolígrafo, me sale en pantalla una libreta. El código está cruzado."
+        },
+        {
+          "start": 211.3,
+          "end": 218.43,
+          "speaker": "agent",
+          "text": "Eso es que ese código de barras está asignado a dos artículos. Vamos a quitarlo del que no toca."
+        },
+        {
+          "start": 218.78,
+          "end": 220.27,
+          "speaker": "client",
+          "text": "Vale."
+        },
+        {
+          "start": 220.62,
+          "end": 228.71,
+          "speaker": "agent",
+          "text": "Entre en la ficha de la libreta, pestaña Códigos, y borre el código que se repite. Déjelo solo en el bolígrafo."
+        },
+        {
+          "start": 229.06,
+          "end": 234.67,
+          "speaker": "client",
+          "text": "Listo, borrado. Escaneo otra vez... ahora sí sale el bolígrafo."
+        },
+        {
+          "start": 235.02,
+          "end": 238.69,
+          "speaker": "agent",
+          "text": "Genial. Quedaría arreglado."
+        },
+        {
+          "start": 239.04,
+          "end": 241.76,
+          "speaker": "client",
+          "text": "Muchas gracias, hasta luego."
+        }
+      ]
+    }
+  ]
+}
