@@ -1,5 +1,5 @@
 {
-  "description": "Synthetic multi-call recording — fully fictional, generated with edge-tts.",
+  "description": "Synthetic multi-call recording, fully fictional, generated with edge-tts.",
   "voices": {
     "agent": "es-ES-AlvaroNeural",
     "client": "es-ES-ElviraNeural"

@@ -1,8 +1,8 @@
 """Transcription wrappers for the two engines under comparison.
 
 Engines are kept isolated and dependency-light:
-  - Deepgram (cloud)        — needs DEEPGRAM_API_KEY.
-  - faster-whisper (local)  — CPU-friendly CTranslate2 build of Whisper.
+  - Deepgram (cloud):        needs DEEPGRAM_API_KEY.
+  - faster-whisper (local):  CPU-friendly CTranslate2 build of Whisper.
 
 Both return a uniform list of segments: {start, end, speaker, text}.
 """

@@ -112,7 +112,7 @@ def main() -> int:
         cells = []
         for key in transcripts:
             r = next((x for x in rows if x["call"] == call["id"] and x["engine"] == key), None)
-            cells.append(str(r["wer"]) if r else "—")
+            cells.append(str(r["wer"]) if r else "n/a")
         md.append(f"| {call['id']} | " + " | ".join(cells) + " |")
     (RESULTS / "results.md").write_text("\n".join(md), encoding="utf-8")
 

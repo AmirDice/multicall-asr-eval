@@ -3,13 +3,13 @@
 Three complementary metrics, chosen so the toolkit works on BOTH a verbatim
 reference (synthetic) and a condensed human reference (real-world):
 
-  - WER          — valid only when the reference is verbatim. Reported here
+  - WER:           valid only when the reference is verbatim. Reported here
                    because the synthetic ground truth is exact.
-  - Entity acc   — does the engine get the domain terms / proper nouns right?
+  - Entity acc:    does the engine get the domain terms / proper nouns right?
                    Reported as exact AND fuzzy match (fuzzy credits near-miss
                    spellings like "GestorPro" vs "gestor pro"). This is the
                    metric that survives a condensed reference.
-  - Phrase recall— fraction of a reference line's content words present in the
+  - Phrase recall: fraction of a reference line's content words present in the
                    engine transcript. Also survives a condensed reference.
 
 See README for why WER alone is the wrong tool on real support-call data.
@@ -23,7 +23,7 @@ import unicodedata
 import jiwer
 from rapidfuzz import fuzz
 
-# Curated domain glossary for the synthetic scripts — the brand/technical terms
+# Curated domain glossary for the synthetic scripts: the brand/technical terms
 # an ASR for this domain must get right (the real-world analogue is the
 # product/vendor jargon a support line uses constantly). Person/place proper
 # nouns are added per call from the reference at runtime.

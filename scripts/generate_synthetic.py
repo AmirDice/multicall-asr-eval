@@ -3,17 +3,17 @@
 
 For each turn, text is rendered with edge-tts using a distinct voice per role
 (so the recording has two real speakers for diarization). Turns are
-concatenated with short gaps; calls are separated by a longer silence — the
+concatenated with short gaps; calls are separated by a longer silence, so the
 result is one long MP3 containing several unrelated support calls, like a
 call-centre queue recording.
 
 Outputs:
-  data/synthetic_calls.mp3       — the recording
-  data/ground_truth.json         — per-call windows + verbatim turns with
-                                    exact timestamps and speaker labels
+  data/synthetic_calls.mp3        the recording
+  data/ground_truth.json          per-call windows + verbatim turns with
+                                  exact timestamps and speaker labels
 
 Because we generate the audio, the ground truth is VERBATIM (every word) and
-the speakers are known exactly — so both WER and Diarization Error Rate are
+the speakers are known exactly, so both WER and Diarization Error Rate are
 valid here, unlike on a real condensed human reference (see README).
 
     python scripts/generate_synthetic.py
@@ -96,7 +96,7 @@ async def main() -> int:
     recording.export(out_mp3, format="mp3", bitrate="128k")
 
     gt = {
-        "description": "Synthetic multi-call recording — fully fictional, generated with edge-tts.",
+        "description": "Synthetic multi-call recording, fully fictional, generated with edge-tts.",
         "voices": VOICES,
         "duration_sec": round(cursor_ms / 1000, 2),
         "calls": gt_calls,
@@ -112,7 +112,7 @@ async def main() -> int:
 
     total_turns = sum(len(c["turns"]) for c in gt_calls)
     print(f"Wrote {out_mp3} ({gt['duration_sec']}s)")
-    print(f"Wrote {DATA / 'ground_truth.json'} — {len(gt_calls)} calls, {total_turns} turns")
+    print(f"Wrote {DATA / 'ground_truth.json'}: {len(gt_calls)} calls, {total_turns} turns")
     return 0
 
 

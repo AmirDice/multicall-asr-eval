@@ -1,5 +1,5 @@
 """Fully fictional Spanish software-helpdesk calls used to synthesise a
-multi-call recording. No real people, companies, or customer data — this is
+multi-call recording. No real people, companies, or customer data. This is
 generated audio for a reproducible ASR/diarization evaluation.
 
 Each call is a list of turns: (speaker, text). `speaker` is "agent" or
@@ -9,7 +9,7 @@ file contains several unrelated conversations.
 
 Domain vocabulary is intentionally seeded with brand-like and technical
 terms (GestorPro, FactuCloud, SEPA, código de barras) so the entity-accuracy
-metric has something meaningful to measure — the same failure mode real ASR
+metric has something meaningful to measure, the same failure mode real ASR
 hits on proper nouns and jargon.
 """
 
